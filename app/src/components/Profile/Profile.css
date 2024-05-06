@@ -1,0 +1,28 @@
+.profiless{
+    width: 100%;
+    height: 80%;
+    padding: 15px 20px;
+    border-radius: 16px;
+    background-color: rgb(254, 254, 254);
+}
+.profile-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-details {
+    text-align: center;
+}
+
+.profile-about {
+    margin-top: 20px;
+}
