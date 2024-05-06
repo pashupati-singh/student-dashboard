@@ -10,7 +10,7 @@ Click on a student's row in the table to view their detailed information.
 ## Installation
 Clone the repository:
 
-git clone : 
+git clone : https://github.com/pashupati-singh/student-dashboard.git
 
 ## Navigate to the project directory:
 
