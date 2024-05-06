@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./CourseList.css";
-import { Profile } from '../Profile/Profile'; // Import the Profile component
+import { Profile } from '../Profile/Profile';
 
 const courseData = [
     {
@@ -73,7 +73,7 @@ const CourseList = ({handleData}) => {
                 <button className="btn ">See All</button>
             </div>
 
-            <div className=' '>
+            <div className='  d-flex align-items-center justify-content-between p-3 mt-3'>
                 <table className="table ">
                     <thead>
                         <tr>

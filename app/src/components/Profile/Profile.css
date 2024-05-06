@@ -20,9 +20,41 @@
 }
 
 .profile-details {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
 }
+
+.btn-primary {
+    margin-top: 20px; 
+}
+
 
 .profile-about {
     margin-top: 20px;
 }
+
+
+@media screen and (max-width: 768px) {
+   .profile-about p  {
+       font-size: 0.8rem; 
+   }
+   .form-group label{
+    font-size: 0.8rem; 
+   }
+   .profile-details h2{
+    font-size: 1.3rem;
+   }
+  }
+  
+  @media screen and (max-width: 576px) {
+   .profile-about p  {
+       font-size: 0.6rem; 
+   }
+   .form-group label{
+    font-size: 0.6rem; 
+   }
+   .profile-details h2{
+    font-size: 1rem;
+   }
+  }

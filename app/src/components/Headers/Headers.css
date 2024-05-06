@@ -22,7 +22,62 @@
   
     
 }
+
+.vertical-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px; 
+    height: 100%;
+    z-index: 1000; 
+}
+
+.close-navbar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
 .profile-container {
     width: 35%;
     
+}
+
+@media screen and (max-width : 1125px) {
+    
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .courses {
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-container {
+        width: 60%;
+        margin: auto;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .courses {
+        display: flex;
+        flex-direction: column;
+    }
+   
+   
+}
+
+@media screen and (max-width: 576px) {
+    .courses {
+        display: flex;
+        flex-direction: column;
+    }
+    
+   
 }

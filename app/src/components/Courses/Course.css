@@ -9,3 +9,16 @@
 .courses p{
     line-height: 1;
 }
+
+
+@media screen and (max-width: 768px) {
+    .course-container p {
+        font-size: 0.8rem; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .course-container p {
+        font-size: 0.6rem; 
+    }
+}

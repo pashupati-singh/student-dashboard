@@ -14,6 +14,16 @@ nav {
         
     padding: 0 30px;
     }
+
+    .hide {
+        transform: translate(-100%, -100%);
+        display: none;
+    }
+    
+    .show {
+        display: block;
+    }
+    
     
     
     .navbar-nav .nav-item:hover {
